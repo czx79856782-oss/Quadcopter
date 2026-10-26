@@ -1,0 +1,26 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\stm32\ARM\ARMCC\Bin'
+Build target 'P01_flight_hal'
+compiling com_debug.c...
+common\com_debug.h(16): warning:  #47-D: incompatible redefinition of macro "__FILE_NAME__"  (declared at line 15)
+  #define __FILE_NAME__ (strrchr(__FILE_NAME__, '/') ? (strrchr(__FILE_NAME__, '/') + 1):__FILE_NAME__)
+common\com_debug.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+common\com_debug.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+common\com_debug.c: 3 warnings, 0 errors
+compiling main.c...
+.\common\com_debug.h(16): warning:  #47-D: incompatible redefinition of macro "__FILE_NAME__"  (declared at line 15)
+  #define __FILE_NAME__ (strrchr(__FILE_NAME__, '/') ? (strrchr(__FILE_NAME__, '/') + 1):__FILE_NAME__)
+.\common\com_debug.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(91): warning:  #223-D: function "debug_printf" declared implicitly
+  debug_printf("Hello World\n",10);
+../Core/Src/main.c: 3 warnings, 0 errors
+linking...
+P01_flight_hal\P01_flight_hal.axf: Error: L6218E: Undefined symbol debug_printf (referred from main.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"P01_flight_hal\P01_flight_hal.axf" - 1 Error(s), 6 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
