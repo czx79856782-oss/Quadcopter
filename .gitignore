@@ -1,0 +1,18 @@
+# Keil MDK
+*.uvoptx
+*.uvguix.*
+*.lst
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.elf
+*.build_log.htm
+Listings/
+Objects/
+DebugConfig/
+
+# 系统缓存
+Thumbs.db
+.DS_Store
