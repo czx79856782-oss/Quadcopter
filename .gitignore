@@ -16,3 +16,11 @@ DebugConfig/
 # 系统缓存
 Thumbs.db
 .DS_Store
+
+# Keil 构建产物
+*.hex
+*.map
+*.htm
+*.log
+*.dep
+*.lock
